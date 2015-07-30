@@ -126,6 +126,10 @@ article .entry-footer {
 	padding-top: 1em;
 }
 
+.entry-content, .entry-summary {
+	padding: 0 10% 10% 20%;
+}
+
 /* mobile first */
 
 @media (min-width: 955px) {
@@ -138,6 +142,9 @@ article .entry-footer {
 		background-color: rgba(0,0,0,.1);
 	    transform: skew(-15deg);
 	    padding: 1em;
+	}
+	.widget-area {
+		width: calc(100% - 14em);
 	}
 }
 
