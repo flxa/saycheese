@@ -119,6 +119,10 @@ article .entry-footer {
 	text-rendering: geometricPrecision;
 }
 
+.hentry {
+	padding: 1em;
+}
+
 /* mobile first */
 
 @media (min-width: 955px) {
