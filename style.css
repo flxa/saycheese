@@ -141,17 +141,7 @@ article .entry-footer {
 .entry-title a:hover {
 	color: #DE5D8D;
 }
-@media (min-width: 620px) {
-	.entry-title {
-		margin-left: 0;
-	    font-size: 3em;
-		max-width: 6em;
-		-webkit-transform: skew(-15deg) rotate(-15deg);
-		    -ms-transform: skew(-15deg) rotate(-15deg);
-		        transform: skew(-15deg) rotate(-15deg);
-		margin-left: -2em;
-	}
-}
+
 @media (min-width: 955px) {
 	.entry-title {
 		float: left;
