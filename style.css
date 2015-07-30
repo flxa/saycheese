@@ -8,7 +8,6 @@
  Version:      1.0.0
 */
 @import url("../twentyfifteen/style.css");
-/*@import url(http://fonts.googleapis.com/css?family=Michroma);*/
 body {
 	font-family: "Century Gothic","Futura",sans-serif;
 }
@@ -122,7 +121,9 @@ article .entry-footer {
 .entry-title {
 	font-size: 2em;
 	max-width: 100%;
-	transform: skew(-15deg) rotate(-5deg);
+	-webkit-transform: skew(-15deg) rotate(-5deg);
+	    -ms-transform: skew(-15deg) rotate(-5deg);
+	        transform: skew(-15deg) rotate(-5deg);
 	background-color: #424242;
 	color: white;
 	padding: .25em;
@@ -139,7 +140,9 @@ article .entry-footer {
 		margin-left: 0;
 	    font-size: 3em;
 		max-width: 6em;
-		transform: skew(-15deg) rotate(-15deg);
+		-webkit-transform: skew(-15deg) rotate(-15deg);
+		    -ms-transform: skew(-15deg) rotate(-15deg);
+		        transform: skew(-15deg) rotate(-15deg);
 		margin-left: -2em;
 	}
 }
@@ -164,11 +167,14 @@ article .entry-footer {
 	.site .sidebar .main-navigation .nav-menu .menu-item a {
 		color: white !important;
 		padding: 1em;
-		transition: .25s all ease;
+		-webkit-transition: .25s all ease;
+		        transition: .25s all ease;
 	}
 	.site .sidebar .main-navigation .nav-menu .menu-item a:hover {
 		background-color: rgba(0,0,0,.1);
-	    transform: skew(-15deg);
+	    -webkit-transform: skew(-15deg);
+	        -ms-transform: skew(-15deg);
+	            transform: skew(-15deg);
 	    padding: 1em;
 	}
 	/*.widget-area {
@@ -181,7 +187,9 @@ article .entry-footer {
 @media (max-width: 954px) {
 	.site .secondary {
 		opacity: 0;
-		transition: .25s all ease;
+		filter: alpha(opacity=0);
+		-webkit-transition: .25s all ease;
+		        transition: .25s all ease;
 	}
 	.site .secondary.toggled-on {
 		position: fixed;
@@ -194,6 +202,7 @@ article .entry-footer {
 		z-index: 100;
 		margin: 0;
 		opacity: 1;
+		filter: alpha(opacity=100);
 	}
 	.site .secondary .main-navigation {
 		width: 100%;
