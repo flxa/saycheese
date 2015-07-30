@@ -123,19 +123,26 @@ article .entry-footer {
 .entry-title {
 	font-size: 2em;
 	max-width: 100%;
-	-webkit-transform: skew(-15deg) rotate(-5deg);
-	    -ms-transform: skew(-15deg) rotate(-5deg);
-	        transform: skew(-15deg) rotate(-5deg);
+	-webkit-transform: skew(-10deg);
+	    -ms-transform: skew(-10deg);
+	        transform: skew(-10deg);
 	background-color: #424242;
 	color: white;
 	padding: .25em;
 	margin: 0;
-	float: none;
-	margin-left: 0;
 	line-height: 1;
 	text-rendering: geometricPrecision;
-	margin-top: -1em;
-    margin-bottom: 1em;
+}
+@media (min-width: 955px) {
+	.entry-title {
+		margin-left: 0;
+		margin-top: -1em;
+		margin-bottom: 1em;
+		-webkit-transform: skew(-15deg) rotate(-5deg);
+	        -ms-transform: skew(-15deg) rotate(-5deg);
+	            transform: skew(-15deg) rotate(-5deg);
+		max-width: 100%;
+	}
 }
 .entry-title a {
 	color: white;
@@ -302,6 +309,17 @@ blockquote {
 	.secondary-toggle:hover:before {
 		border-color: rgba(255,255,255,1);
 	}
+
+	.entry-content {
+		padding: 1em;
+	    text-align: center;
+	}
+
+	.tiled-gallery {
+		margin: 1em;
+		position: relative;
+	}
+
 }
 
 img.alignleft {
