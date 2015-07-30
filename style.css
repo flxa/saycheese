@@ -1,0 +1,76 @@
+/*
+ Theme Name:   Say CHeese Photo
+ Theme URI:    http://flxa.co
+ Description:  Twenty Fifteen Child Theme for SCP
+ Author:       Nicholas Fletcher
+ Author URI:   http://nfletcher.com
+ Template:     twentyfifteen
+ Version:      1.0.0
+*/
+@import url("../twentyfifteen/style.css");
+@import url(http://fonts.googleapis.com/css?family=Michroma);
+.site {
+	min-height: calc(100vh - 66px);
+}
+.site .sidebar {
+	position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-width: 100%;
+    height: 100px;
+}
+.site .sidebar .site-header {
+	position: relative;
+	margin: 0;
+	max-width: 100%;
+	padding: 1em;
+}
+.site .sidebar .main-navigation {
+	margin: 0;
+    width: auto;
+    display: inline-block;
+    float: right;
+    top: 1em;
+    position: fixed;
+    right: calc(2em + 100px);
+    border: 0;
+    background-color: transparent;
+}
+.site .sidebar .main-navigation .nav-menu {
+	border: none;
+}
+.site .sidebar .main-navigation .nav-menu .menu-item {
+	display: inline-block;
+    width: auto;
+    padding: 1em;
+    border: none;
+}
+.widget-area {
+	position: fixed;
+	top: 1.5em;
+	right: 1em;
+}
+.widget-area .widget_search {
+	margin: 0;
+	padding: 0;
+	width: 100px;
+}
+.site-content {
+	margin-top: 100px;
+	width: 100%;
+	margin-left: 0;
+}
+.site-content .site-main {
+	padding: 1em;
+}
+.site-footer {
+	width: 100%;
+	margin: 0;
+	z-index: 100;
+	position: fixed;
+	bottom: 0;
+}
+.site-footer .site-info {
+	padding: 2em;
+}
