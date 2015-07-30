@@ -199,7 +199,7 @@ article .entry-footer {
 		width: 50%;
 	}
 }
-@media (max-width: 955px) {
+@media (min-width: 955px) {
 	.entry-content .image-grid {
 		display: block;
     	width: 600px;
