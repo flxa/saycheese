@@ -100,8 +100,9 @@ article .entry-footer {
 		background-color: white;
 		z-index: 100;
 		margin: 0;
+		opacity: 1;
 	}
-	.site-header .main-navigation {
+	.site .secondary .main-navigation {
 		width: 100%;
 		display: block;
 		position: relative;
@@ -110,6 +111,7 @@ article .entry-footer {
 		clear: both;
 		text-align: center;
 		right: auto;
+	    left: auto;
 	}
 	.site .sidebar .main-navigation .nav-menu .menu-item {
 		display: block;
