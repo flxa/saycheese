@@ -153,7 +153,6 @@ article .entry-footer {
 		-webkit-transform: skew(-15deg) rotate(-5deg);
 	        -ms-transform: skew(-15deg) rotate(-5deg);
 	            transform: skew(-15deg) rotate(-5deg);
-		max-width: 100%;
 	}
 }
 
