@@ -85,7 +85,7 @@ article .entry-footer {
 }
 
 
-@media (max-width: 767px) {
+@media (max-width: 954px) {
 	.site .secondary {
 		opacity: 0;
 		transition: .25s all ease;
