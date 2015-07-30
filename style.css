@@ -34,6 +34,8 @@ body:before {
 	margin: 0;
 	max-width: 100%;
 	padding: 1em;
+	background-color: #DE5D8D;
+    color: white;
 }
 .site .sidebar .main-navigation {
 	margin: 0;
@@ -93,8 +95,12 @@ article .entry-footer {
 	text-rendering: geometricPrecision;
 	font-size: 1.5em;
 }
+.site-title a {
+	color: white;
+}
 .site-description {
 	margin: 0;
+	margin-top: -2px;
 }
 
 
@@ -131,6 +137,12 @@ article .entry-footer {
 		width: 100%;
 		border: none;
 		padding: .25em;
+	}
+	.site .sidebar .main-navigation .nav-menu .menu-item a {
+		color: white;
+	}
+	.site .sidebar .main-navigation .nav-menu .menu-item a:hover {
+		
 	}
 	.widget-area {
 		margin: 0;
