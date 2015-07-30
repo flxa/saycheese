@@ -18,6 +18,9 @@ body:before {
 .site {
 	min-height: calc(100vh - 66px);
 }
+.site-main {
+	padding-bottom: 6em;
+}
 .site .sidebar {
 	position: fixed;
 	top: 0;
