@@ -218,8 +218,15 @@ article .entry-footer {
     	width: 600px;
 	}
 }
-
+blockquote {
+	color: #DE5D8D;
+}
 @media (max-width: 954px) {
+	blockquote {
+		top: 8em;
+		position: absolute;
+		left: 2em;
+	}
 	.site .secondary {
 		opacity: 0;
 		filter: alpha(opacity=0);
