@@ -103,6 +103,22 @@ article .entry-footer {
 	margin-top: -2px;
 }
 
+/* Typography */
+
+.entry-title {
+	font-size: 3em;
+	max-width: 6em;
+	transform: skew(-15deg) rotate(-15deg);
+	background-color: #424242;
+	color: white;
+	padding: .25em;
+	margin: 0;
+	float: left;
+	margin-left: -3em;
+	line-height: 1;
+	text-rendering: geometricPrecision;
+}
+
 /* mobile first */
 
 @media (min-width: 955px) {
