@@ -201,6 +201,9 @@ article .entry-footer {
 	clear: both;
 	float: none;
 }
+blockquote {
+	color: #DE5D8D;
+}
 @media (max-width: 500px) {
 	.entry-content img {
 		float: none;
@@ -217,16 +220,14 @@ article .entry-footer {
 		display: block;
     	width: 600px;
 	}
-}
-blockquote {
-	color: #DE5D8D;
-}
-@media (max-width: 954px) {
 	blockquote {
 		top: 8em;
 		position: absolute;
 		left: 2em;
 	}
+}
+@media (max-width: 954px) {
+	
 	.site .secondary {
 		opacity: 0;
 		filter: alpha(opacity=0);
