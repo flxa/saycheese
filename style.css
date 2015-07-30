@@ -106,6 +106,7 @@ article .entry-footer {
 .site .sidebar .main-navigation .nav-menu .menu-item a {
 	color: white !important;
 	padding: 1em;
+	transition: .25s all ease;
 }
 .site .sidebar .main-navigation .nav-menu .menu-item a:hover {
 	background-color: rgba(0,0,0,.1);
