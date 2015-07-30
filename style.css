@@ -140,6 +140,9 @@ article .entry-footer {
 .entry-title a {
 	color: white;
 }
+.entry-title a:hover {
+	color: #DE5D8D;
+}
 @media (min-width: 620px) {
 	.entry-title {
 		margin-left: 0;
