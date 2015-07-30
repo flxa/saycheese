@@ -1,4 +1,4 @@
-	<?php if (!function_exists('bottom_content') || !dynamic_sidebar('Bottom Content')) : ?>xxx<?php endif; ?>
+	<?php if (!function_exists('bottom_content')) : ?>xxx<?php endif; ?>
 
 	</div><!-- .site-content -->
 
