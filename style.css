@@ -234,6 +234,11 @@ blockquote {
 		position: absolute;
 		left: 2em;
 	}
+	.tiled-gallery {
+		position: absolute;
+		top: -1em;
+		right: -1em;
+	}
 }
 @media (max-width: 954px) {
 	
