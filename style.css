@@ -109,17 +109,31 @@ article .entry-footer {
 /* Typography */
 
 .entry-title {
-	font-size: 3em;
-	max-width: 6em;
-	transform: skew(-15deg) rotate(-15deg);
+	font-size: 2em;
+	max-width: 100%;
+	transform: skew(-15deg) rotate(-5deg);
 	background-color: #424242;
 	color: white;
 	padding: .25em;
 	margin: 0;
-	float: left;
-	margin-left: -3em;
+	float: none;
+	margin-left: 0;
 	line-height: 1;
 	text-rendering: geometricPrecision;
+}
+@media (min-width: 620px) {
+	.entry-title {
+	    font-size: 3em;
+		max-width: 6em;
+		transform: skew(-15deg) rotate(-15deg);
+		margin-left: -2em;
+	}
+}
+@media (min-width: 955px) {
+	.entry-title {
+		float: left;
+    	margin-left: -3em;
+    }
 }
 
 .hentry {
