@@ -175,7 +175,7 @@ article .entry-footer {
 
 @media screen and (min-width: 59.6875em) {
 	.site {
-	    max-width: auto;
+	    max-width: 100%;
 	}
 }
 
