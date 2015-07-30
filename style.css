@@ -164,6 +164,10 @@ article .entry-footer {
 .hentry {
 	padding-top: 1em;
 }
+article.hentry {
+	max-width:1000px;
+	margin: 0 auto;
+}
 
 .entry-content, .entry-summary {
 	padding: 5% 10% 10% 20%;
