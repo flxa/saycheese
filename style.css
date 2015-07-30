@@ -194,13 +194,15 @@ article .entry-footer {
 		width: 100%;
 	}
 }
+@media (max-width: 954px) {
+	.entry-content img {
+		width: 50%;
+	}
+}
 @media (max-width: 955px) {
 	.entry-content .image-grid {
 		display: block;
     	width: 600px;
-	}
-	.entry-content img {
-		width: 50%;
 	}
 }
 
