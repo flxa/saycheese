@@ -184,6 +184,13 @@ article .entry-footer {
 
 /* Backwards arse mobile last design :( ... for shame (on me) */
 
+@media (max-width: 500px) {
+	.entry-content img {
+		float: none;
+		width: 100%;
+	}
+}
+
 @media (max-width: 954px) {
 	.site .secondary {
 		opacity: 0;
