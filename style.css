@@ -144,6 +144,8 @@ article .entry-footer {
 
 @media (min-width: 955px) {
 	.entry-title {
+		font-size: 3em;
+		max-width: 6em;
 		float: left;
     	margin-left: -3em;
 		margin-top: -1em;
