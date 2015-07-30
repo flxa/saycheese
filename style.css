@@ -184,6 +184,10 @@ article .entry-footer {
 
 /* Backwards arse mobile last design :( ... for shame (on me) */
 
+.entry-content img {
+	margin: 0;
+}
+
 @media (max-width: 500px) {
 	.entry-content img {
 		float: none;
