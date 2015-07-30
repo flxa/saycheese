@@ -8,7 +8,10 @@
  Version:      1.0.0
 */
 @import url("../twentyfifteen/style.css");
-@import url(http://fonts.googleapis.com/css?family=Michroma);
+/*@import url(http://fonts.googleapis.com/css?family=Michroma);*/
+body {
+	font-family: "Century Gothic","Futura",sans-serif;
+}
 body:before {
 	display: none;
 }
@@ -82,6 +85,16 @@ body:before {
 }
 article .entry-footer {
 	padding: 1em;
+}
+
+.site-title {
+	color: white;
+	font-family: "Century Gothic","Futura";
+	text-rendering: geometricPrecision;
+	font-size: 1.5em;
+}
+.site-description {
+	margin: 0;
 }
 
 
