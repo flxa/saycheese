@@ -169,6 +169,11 @@ article .entry-footer {
 	padding: 5% 10% 10% 20%;
 }
 
+.bottom_content_widget {
+	text-align: center;
+}
+
+
 /* mobile first */
 
 @media (min-width: 955px) {
