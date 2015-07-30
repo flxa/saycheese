@@ -54,7 +54,7 @@ body:before {
 .site .sidebar .main-navigation .nav-menu .menu-item {
 	display: inline-block;
 	width: auto;
-	padding: 1em;
+	padding: 0;
 	border: none;
 }
 .widget-area {
@@ -105,9 +105,13 @@ article .entry-footer {
 
 .site .sidebar .main-navigation .nav-menu .menu-item a {
 	color: white !important;
+	padding: 1em;
 }
 .site .sidebar .main-navigation .nav-menu .menu-item a:hover {
-	color: white !important;
+	color: #DE5D8D !important;
+	background-color: rgba(0,0,0,.1);
+    transform: skew(-15deg);
+    padding: 1em;
 }
 
 /* Backwards arse mobile last design :( ... for shame (on me) */
