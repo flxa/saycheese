@@ -166,4 +166,16 @@ article .entry-footer {
 		margin: 0;
 		width: calc(100% - 76px);
 	}
+	.secondary-toggle {
+		border: 2px solid rgba(255,255,255,.5);
+	}
+	.secondary-toggle:before {
+		color: rgba(255,255,255,.5);
+	}
+	.secondary-toggle:hover {
+		color: rgba(255,255,255,1);
+	}
+	.secondary-toggle:hover:before {
+		color: rgba(255,255,255,1);
+	}
 }
