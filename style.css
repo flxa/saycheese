@@ -143,9 +143,9 @@ article .entry-footer {
 	    transform: skew(-15deg);
 	    padding: 1em;
 	}
-	.widget-area {
+	/*.widget-area {
 		width: calc(100% - 14em);
-	}
+	}*/
 }
 
 /* Backwards arse mobile last design :( ... for shame (on me) */
