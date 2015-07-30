@@ -295,11 +295,11 @@ blockquote {
 	}
 }
 
-.alignleft {
+img.alignleft {
 	margin-right: 1em;
     margin-bottom: .5em;
 }
-.alignright {
+img.alignright {
 	margin-left: 1em;
     margin-bottom: .5em;
 }
