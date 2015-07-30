@@ -194,6 +194,11 @@ article .entry-footer {
 		width: 100%;
 	}
 }
+@media (max-width: 955px) {
+	.entry-content img {
+		width: 50%;
+	}
+}
 
 @media (max-width: 954px) {
 	.site .secondary {
