@@ -325,4 +325,4 @@ img.alignright {
 }
 
 .hentry { min-height: 60vh; }
-.search .hentry { min-height: none; }
+.search .hentry { min-height: auto; }
