@@ -108,7 +108,6 @@ article .entry-footer {
 	padding: 1em;
 }
 .site .sidebar .main-navigation .nav-menu .menu-item a:hover {
-	color: #DE5D8D !important;
 	background-color: rgba(0,0,0,.1);
     transform: skew(-15deg);
     padding: 1em;
