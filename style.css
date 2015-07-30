@@ -71,9 +71,10 @@ body:before {
 	width: 100px;
 }
 .site-content {
-	margin-top: 100px;
+	margin-top: 82px;
 	width: 100%;
 	margin-left: 0;
+	padding-top: 3em;
 }
 .site-content .site-main {
 	padding: 1em;
