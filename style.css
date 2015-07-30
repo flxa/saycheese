@@ -176,6 +176,6 @@ article .entry-footer {
 		color: rgba(255,255,255,1);
 	}
 	.secondary-toggle:hover:before {
-		color: rgba(255,255,255,1);
+		border-color: rgba(255,255,255,1);
 	}
 }
