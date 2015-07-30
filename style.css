@@ -103,6 +103,14 @@ article .entry-footer {
 	margin-top: -2px;
 }
 
+.site .sidebar .main-navigation .nav-menu .menu-item a {
+	color: white !important;
+}
+.site .sidebar .main-navigation .nav-menu .menu-item a:hover {
+	color: white !important;
+}
+
+/* Backwards arse mobile last design :( ... for shame (on me) */
 
 @media (max-width: 954px) {
 	.site .secondary {
@@ -137,12 +145,6 @@ article .entry-footer {
 		width: 100%;
 		border: none;
 		padding: .25em;
-	}
-	.site .sidebar .main-navigation .nav-menu .menu-item a {
-		color: white;
-	}
-	.site .sidebar .main-navigation .nav-menu .menu-item a:hover {
-		
 	}
 	.widget-area {
 		margin: 0;
