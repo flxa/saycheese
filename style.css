@@ -323,3 +323,5 @@ img.alignright {
 	margin-left: 1em;
     margin-bottom: .5em;
 }
+
+.hentry { min-height: 60vh; }
