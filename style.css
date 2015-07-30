@@ -195,6 +195,10 @@ article .entry-footer {
 	}
 }
 @media (max-width: 955px) {
+	.entry-content .image-grid {
+		display: block;
+    	width: 600px;
+	}
 	.entry-content img {
 		width: 50%;
 	}
