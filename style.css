@@ -204,6 +204,12 @@ article .entry-footer {
 		display: block;
     	width: 600px;
 	}
+	.entry-content .image-grid:before, .image-grid:after {
+		content "";
+		display: table;
+		clear: both;
+		float: none;
+	}
 }
 
 @media (max-width: 954px) {
