@@ -173,6 +173,11 @@ article .entry-footer {
 	text-align: center;
 }
 
+@media screen and (min-width: 59.6875em) {
+	.site {
+	    max-width: auto;
+	}
+}
 
 /* mobile first */
 
