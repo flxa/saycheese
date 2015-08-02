@@ -1,5 +1,5 @@
 /*
- Theme Name:   Say CHeese Photo
+ Theme Name:   Say Cheese Photo Template 
  Theme URI:    http://flxa.co
  Description:  Twenty Fifteen Child Theme for SCP
  Author:       Nicholas Fletcher
@@ -8,43 +8,58 @@
  Version:      1.0.0
 */
 @import url("../twentyfifteen/style.css");
-@import url(http://fonts.googleapis.com/css?family=Michroma);
+body {
+	font-family: "Century Gothic","Futura",sans-serif;
+	background-image: linear-gradient(transparent, white);
+}
+body:before {
+	display: none;
+}
 .site {
 	min-height: calc(100vh - 66px);
 }
+.site-main {
+	padding-bottom: 6em;
+}
 .site .sidebar {
 	position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    max-width: 100%;
-    height: 100px;
+	top: 0;
+	left: 0;
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+	background-color: white;
+	z-index: 1;
+	box-shadow: 0 0 10px rgba(0,0,0,.1);
 }
 .site .sidebar .site-header {
 	position: relative;
 	margin: 0;
 	max-width: 100%;
 	padding: 1em;
+	background-color: #DE5D8D;
+    color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,.5);
 }
 .site .sidebar .main-navigation {
 	margin: 0;
-    width: auto;
-    display: inline-block;
-    float: right;
-    top: 1em;
-    position: fixed;
-    right: calc(2em + 100px);
-    border: 0;
-    background-color: transparent;
+	width: auto;
+	display: inline-block;
+	float: right;
+	top: 1em;
+	position: fixed;
+	right: calc(2em + 100px);
+	border: 0;
+	background-color: transparent;
 }
 .site .sidebar .main-navigation .nav-menu {
 	border: none;
 }
 .site .sidebar .main-navigation .nav-menu .menu-item {
 	display: inline-block;
-    width: auto;
-    padding: 1em;
-    border: none;
+	width: auto;
+	padding: 0;
+	border: none;
 }
 .widget-area {
 	position: fixed;
@@ -57,9 +72,14 @@
 	width: 100px;
 }
 .site-content {
-	margin-top: 100px;
+	margin-top: 82px;
 	width: 100%;
 	margin-left: 0;
+}
+@media (min-width: 620px) {
+	.site-content {
+		padding-top: 3em;
+	}
 }
 .site-content .site-main {
 	padding: 1em;
@@ -68,9 +88,241 @@
 	width: 100%;
 	margin: 0;
 	z-index: 100;
-	position: fixed;
+	position: relative;
 	bottom: 0;
+	z-index: 0;
+}
+@media (min-width: 955px) {
+	.site-footer {
+		position: fixed;
+	}
 }
 .site-footer .site-info {
 	padding: 2em;
 }
+article .entry-footer {
+	padding: 1em;
+}
+
+.site-title {
+	color: white;
+	font-family: "Century Gothic","Futura";
+	text-rendering: geometricPrecision;
+	font-size: 1.5em;
+}
+.site-title a {
+	color: white;
+}
+.site-description {
+	margin: 0;
+	margin-top: -2px;
+}
+
+/* Typography */
+
+.entry-title {
+	font-size: 2em;
+	max-width: 100%;
+	-webkit-transform: skew(-10deg);
+	    -ms-transform: skew(-10deg);
+	        transform: skew(-10deg);
+	background-color: #424242;
+	color: white;
+	padding: .25em;
+	margin: 0;
+	line-height: 1;
+	text-rendering: geometricPrecision;
+}
+
+
+.entry-title a {
+	color: white;
+}
+.entry-title a:hover {
+	color: #DE5D8D;
+}
+
+@media (min-width: 955px) {
+	.entry-title {
+		font-size: 3em;
+		max-width: 6em;
+		float: left;
+    	margin-left: -3em;
+		margin-top: -1em;
+		margin-bottom: 1em;
+		-webkit-transform: skew(-15deg) rotate(-5deg);
+	        -ms-transform: skew(-15deg) rotate(-5deg);
+	            transform: skew(-15deg) rotate(-5deg);
+	}
+}
+
+.hentry {
+	padding-top: 1em;
+}
+article.hentry {
+	max-width:1000px;
+	margin: 0 auto;
+}
+
+.entry-content, .entry-summary {
+	padding: 5% 10% 10% 20%;
+}
+
+.bottom_content_widget {
+	text-align: center;
+}
+
+@media screen and (min-width: 59.6875em) {
+	.site {
+	    max-width: 100%;
+	}
+}
+
+/* mobile first */
+
+@media (min-width: 955px) {
+	.site .sidebar .main-navigation .nav-menu .menu-item a {
+		color: white !important;
+		padding: 1em;
+		-webkit-transition: .25s all ease;
+		        transition: .25s all ease;
+	}
+	.site .sidebar .main-navigation .nav-menu .menu-item a:hover {
+		background-color: rgba(0,0,0,.1);
+	    -webkit-transform: skew(-15deg);
+	        -ms-transform: skew(-15deg);
+	            transform: skew(-15deg);
+	    padding: 1em;
+	}
+	/*.widget-area {
+		width: calc(100% - 14em);
+	}*/
+}
+
+/* Backwards arse mobile last design :( ... for shame (on me) */
+
+.entry-content img {
+	margin: 0;
+}
+.image-grid:before, .image-grid:after {
+	content "";
+	display: table;
+	clear: both;
+	float: none;
+}
+blockquote {
+	color: #DE5D8D;
+}
+@media (max-width: 500px) {
+	.entry-content img {
+		float: none;
+		width: 100%;
+	}
+}
+@media (min-width: 501px) and (max-width: 954px) {
+	.entry-content img {
+		width: 50%;
+	}
+}
+@media (min-width: 955px) {
+	.entry-content .image-grid {
+		display: block;
+    	width: 600px;
+	}
+	blockquote {
+		top: 8em;
+		position: absolute;
+		left: 2em;
+	}
+	.home .tiled-gallery {
+		position: absolute;
+		top: -1em;
+		right: -1em;
+	}
+}
+@media (max-width: 954px) {
+	
+	.site .secondary {
+		opacity: 0;
+		filter: alpha(opacity=0);
+		-webkit-transition: .25s all ease;
+		        transition: .25s all ease;
+	}
+	.site .secondary.toggled-on {
+		position: fixed;
+		display: block;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background-color: white;
+		z-index: 100;
+		margin: 0;
+		opacity: 1;
+		filter: alpha(opacity=100);
+	}
+	.site .secondary .main-navigation {
+		width: 100%;
+		display: block;
+		position: relative;
+		float: none;
+		top: 4em;
+		clear: both;
+		text-align: center;
+		right: auto;
+	    left: auto;
+	}
+	.site .sidebar .main-navigation .nav-menu .menu-item {
+		display: block;
+		width: 100%;
+		border: none;
+		padding: .25em;
+	}
+	.widget-area {
+		margin: 0;
+		position: absolute;
+		top: 11px;
+		left: 11px;
+		width: calc(100% - 20px);
+		max-width: none;
+	}
+	.widget-area .widget_search {
+		margin: 0;
+		width: calc(100% - 76px);
+	}
+	.secondary-toggle {
+		border: 2px solid rgba(255,255,255,.5);
+	}
+	.secondary-toggle:before {
+		color: rgba(255,255,255,.5);
+	}
+	.secondary-toggle:hover {
+		color: rgba(255,255,255,1);
+	}
+	.secondary-toggle:hover:before {
+		border-color: rgba(255,255,255,1);
+	}
+
+	.entry-content {
+		padding: 1em;
+	    text-align: center;
+	}
+
+	.tiled-gallery {
+		margin: 1em;
+		position: relative;
+	}
+
+}
+
+img.alignleft {
+	margin-right: 1em;
+    margin-bottom: .5em;
+}
+img.alignright {
+	margin-left: 1em;
+    margin-bottom: .5em;
+}
+
+.hentry { min-height: 60vh; }
+.search .hentry { min-height: auto; }
