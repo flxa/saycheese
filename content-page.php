@@ -16,8 +16,10 @@
 
 	<header class="entry-header">
 		<?php 
-		if ( is_front_page() === '') {	
-			the_title( '<h1 class="entry-title">-', '_'.is_front_page().'-</h1>' );
+		if ( is_home() ) {
+			
+		} else {
+			the_title( '<h1 class="entry-title">', '</h1>' );
 		}
 		?>
 	</header><!-- .entry-header -->
