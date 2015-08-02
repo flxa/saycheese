@@ -118,22 +118,36 @@ article .entry-footer {
 	margin-top: -2px;
 }
 
+.entry-header {
+	font-size: 2em;
+}
+
 /* Typography */
 
 .entry-title {
-	font-size: 2em;
+	text-transform: lowercase;
+    background-color: white;
+    color: #DE5D8D;
+    display: inline;
+    position: relative;
+    z-index: 1;
+	font-size: 1em;
 	max-width: 100%;
-	-webkit-transform: skew(-10deg);
-	    -ms-transform: skew(-10deg);
-	        transform: skew(-10deg);
-	background-color: #424242;
-	color: white;
 	padding: .25em;
 	margin: 0;
 	line-height: 1;
 	text-rendering: geometricPrecision;
 }
 
+header.entry-header:after {
+    content: "";
+    display: table;
+    width: 100%;
+    border-bottom: .2em solid #DE5D8D;
+    position: relative;
+    z-index: 0;
+    top: -.6em;
+}
 
 .entry-title a {
 	color: white;
