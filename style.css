@@ -133,10 +133,9 @@ article .entry-footer {
     z-index: 1;
 	font-size: 1em;
 	max-width: 100%;
-	padding: .25em;
-	margin: 0;
-	line-height: 1;
-	text-rendering: geometricPrecision;
+    padding: .25em;
+    margin: 1em auto;
+    text-rendering: geometricPrecision;
 }
 
 header.entry-header:after {
