@@ -21,11 +21,39 @@
 
 <?php wp_footer(); ?>
 <script>
-	$(document).ready(function() {
-		$(window).scroll(function() {
-			console.log('check');
-		});
+	function getOffset( el ) {
+	    var _x = 0;
+	    var _y = 0;
+	    while( el && !isNaN( el.offsetLeft ) && !isNaN( el.offsetTop ) ) {
+	        _x += el.offsetLeft - el.scrollLeft;
+	        _y += el.offsetTop - el.scrollTop;
+	        el = el.offsetParent;
+	    }
+	    return { top: _y, left: _x };
+	}
+	// what should we do when scrolling occurs
+	var locked = false;
+	var runOnScroll =  function(evt) {
+	  if(locked) return;
+	  locked = true;
+	  var x = getOffset( document.getElementById('main') ).top;
+	  if (x>200) {
+	  	console.log('ping');
+	  } else {
+	  	console.log('pong');
+	  }
+	  locked = false;
+	};
+
+	// grab elements as array, rather than as NodeList
+	var elements = document.querySelectorAll("body");
+	elements = Array.prototype.slice.call(elements);
+
+	// and then make each element do something on scroll
+	elements.forEach(function(element) {
+	  window.addEventListener("scroll", runOnScroll);
 	});
+
 </script>
 </body>
 </html>
