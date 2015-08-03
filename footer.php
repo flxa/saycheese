@@ -37,7 +37,7 @@
 	  if(locked) return;
 	  locked = true;
 	  var x = getOffset( document.getElementById('main') ).top;
-	  if (x > 500) {
+	  if (x > 0) {
 	  	console.log('ping '+x);
 	  } else {
 	  	console.log('pong '+x);
