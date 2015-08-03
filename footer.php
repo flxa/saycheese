@@ -37,10 +37,12 @@
 	  if(locked) return;
 	  locked = true;
 	  var x = getOffset( document.getElementById('main') ).top;
-	  if (x > 0) {
-	  	console.log('ping '+x);
+	  if (x <= 0) {
+	  	//console.log('ping '+x);
+	  	document.getElementById('masthead').className = 'site-header scroll';
 	  } else {
-	  	console.log('pong '+x);
+	  	//console.log('pong '+x);
+	  	document.getElementById('masthead').className = 'site-header';
 	  }
 	  locked = false;
 	};
