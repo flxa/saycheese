@@ -100,6 +100,16 @@ body:before {
 .site-footer .site-info {
 	padding: 2em;
 }
+.site-info a {
+    color: white;
+    transition: .25s all ease;
+    border-bottom: 1px solid rgba(255,255,255,.75);
+}
+.site-info a:hover {
+	color: white;
+	color: rgba(255,255,255,.75);
+    border-bottom: 7px solid rgba(255,255,255,.75);
+}
 article .entry-footer {
 	padding: 1em;
 }
