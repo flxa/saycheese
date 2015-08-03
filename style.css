@@ -120,6 +120,10 @@ article .entry-footer {
 	color: white;
 	font-family: "Century Gothic","Futura";
 	text-rendering: geometricPrecision;
+	font-size: 2.5em;
+    transition: .25s all ease;
+}
+.site-title.scroll {
 	font-size: 1.5em;
 }
 .site-title a {

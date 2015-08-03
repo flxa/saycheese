@@ -20,6 +20,12 @@
 </div><!-- .site -->
 
 <?php wp_footer(); ?>
-
+<script>
+	$(document).ready(function() {
+		$(window).scroll(function() {
+			console.log('check');
+		});
+	});
+</script>
 </body>
 </html>
