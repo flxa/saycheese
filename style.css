@@ -99,6 +99,8 @@ body:before {
 }
 .site-footer .site-info {
 	padding: 2em;
+	background-color: #EA2B72;
+    color: white;
 }
 .site-info a {
     color: white;
