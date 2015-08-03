@@ -161,10 +161,10 @@ header.entry-header:after {
 }
 
 .entry-title a {
-	color: white;
+	color: #EA2B72;
 }
 .entry-title a:hover {
-	color: #EA2B72;
+	color: #444;
 }
 
 @media (min-width: 955px) {
