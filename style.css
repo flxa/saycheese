@@ -116,14 +116,14 @@ article .entry-footer {
 	padding: 1em;
 }
 
-.site-title {
+.site-header .site-title {
 	color: white;
 	font-family: "Century Gothic","Futura";
 	text-rendering: geometricPrecision;
 	font-size: 2.5em;
     transition: .25s all ease;
 }
-.site-title.scroll {
+.site-header.scroll .site-title {
 	font-size: 1.5em;
 }
 .site-title a {
