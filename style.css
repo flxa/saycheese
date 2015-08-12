@@ -195,6 +195,13 @@ h2:after {
 article.hentry {
 	max-width:1000px;
 	margin: 0 auto;
+
+}
+
+@media (min-width: 955px) {
+	article.hentry {
+		margin-bottom: 10em;
+	}
 }
 
 .entry-content, .entry-summary {
