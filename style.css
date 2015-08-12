@@ -91,7 +91,7 @@ body:before {
 	z-index: 100;
 	position: relative;
 	bottom: 0;
-	z-index: 0;
+	z-index: 1;
 }
 @media (min-width: 955px) {
 	.site-footer {
