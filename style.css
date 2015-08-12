@@ -159,6 +159,10 @@ h2 {
 	font-size: .75em;
 }
 
+h3 {
+	color: #EA2B72;
+}
+
 header.entry-header:after, h2:after {
     content: "";
     display: table;
