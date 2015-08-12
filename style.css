@@ -400,3 +400,23 @@ img.alignright {
 		text-align: right;
 	}
 }
+
+.pkg-container:after {
+	display: table;
+	content: "";
+	float: none;
+	clear: both;
+}
+
+@media (min-width: 900px) {
+	.pkg-box {
+	    border: 5px solid rgb(234, 43, 114);
+	    padding: 1em;
+	    width: calc(33.3333% - 1em);
+	    float: left;
+	    margin-right: 1em;
+	}
+	.pkg-box:last-child {
+		margin-right: 0;
+	}
+}
