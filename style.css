@@ -380,6 +380,11 @@ img.alignright {
     padding: 1em;
     text-align: center;
 }
+.site-info .footer_content_widget img {
+	width: 33.3333%;
+    height: auto;
+    max-width: 60px;
+}
 .site-info .footer_content_widget h2 {
 	background-color: transparent;
     color: white;
