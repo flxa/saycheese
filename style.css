@@ -390,7 +390,7 @@ img.alignright {
 @media (min-width: 600px) {
 	.site-info .footer_content_widget {
 		float: left;
-    	width: 50%;
+    	width: 33.3333%;
     	text-align: left;
 	}
 }
@@ -401,7 +401,7 @@ img.alignright {
 @media (min-width: 600px) {
 	.site-info h6 {
 		padding: 1em;
-		width: 50%;
+		width: 33.3333%;
 		float: left;
 		clear: none;
 		text-align: right;
