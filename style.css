@@ -356,6 +356,23 @@ img.alignright {
 	}
 }
 
-.footer_content_widget {
+.site-info:after {
+    content: "";
+    display: table;
+    clear: both;
+    float: none;
+}
+.site-info .footer_content_widget {
 	color: white;
+    max-width: calc(100% - 2em);
+    margin: 0;
+    padding: 1em;
+    float: left;
+    width: 50%;
+}
+.site-info h6 {
+	padding: 1em;
+    width: 50%;
+    float: left;
+    clear: none;
 }
