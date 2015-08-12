@@ -141,7 +141,7 @@ article .entry-footer {
 
 /* Typography */
 
-.entry-title {
+.entry-title, h2 {
 	text-transform: lowercase;
     background-color: white;
     color: #EA2B72;
@@ -155,7 +155,11 @@ article .entry-footer {
     text-rendering: geometricPrecision;
 }
 
-header.entry-header:after {
+h2 {
+	font-size: .75em;
+}
+
+header.entry-header:after, h2:after {
     content: "";
     display: table;
     width: 100%;
