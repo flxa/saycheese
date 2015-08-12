@@ -368,13 +368,25 @@ img.alignright {
     max-width: calc(100% - 2em);
     margin: 0;
     padding: 1em;
-    float: left;
-    width: 50%;
+    text-align: center;
+}
+@media (min-width: 600px) {
+	.site-info .footer_content_widget {
+		float: left;
+    	width: 50%;
+    	text-align: left;
+	}
 }
 .site-info h6 {
 	padding: 1em;
-    width: 50%;
-    float: left;
-    clear: none;
-    text-align: right;
+	text-align: center;
+}
+@media (min-width: 600px) {
+	.site-info h6 {
+		padding: 1em;
+		width: 50%;
+		float: left;
+		clear: none;
+		text-align: right;
+	}
 }
