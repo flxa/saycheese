@@ -168,7 +168,9 @@ header.entry-header:after, h2:after {
     z-index: 0;
     top: -.6em;
 }
-
+h2:after {
+    top: -.35em;
+}
 .entry-title a {
 	color: #EA2B72;
 }
