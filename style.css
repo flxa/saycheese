@@ -121,7 +121,7 @@ article .entry-footer {
 
 .site-header .site-title {
 	color: white;
-	font-family: "Century Gothic","Futura";
+	font-family: "Lato";
 	text-rendering: geometricPrecision;
 	font-size: 2.5em;
     transition: .25s all ease;
