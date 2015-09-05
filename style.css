@@ -37,7 +37,7 @@ body:before {
 	margin: 0;
 	max-width: 100%;
 	padding: 1em;
-	background-color: #EA2B72;
+	background-color: #E977AF;
     color: white;
     box-shadow: 0 0 10px rgba(0,0,0,.5);
 }
@@ -100,7 +100,7 @@ body:before {
 }
 .site-footer .site-info {
 	padding: 2em;
-	background-color: #EA2B72;
+	background-color: #E977AF;
     color: white;
 }
 .site-info a {
@@ -145,7 +145,7 @@ article .entry-footer {
 .entry-title, h2 {
 	text-transform: lowercase;
     background-color: white;
-    color: #EA2B72;
+    color: #E977AF;
     display: inline;
     position: relative;
     z-index: 1;
@@ -161,14 +161,14 @@ h2 {
 }
 
 h3 {
-	color: #EA2B72;
+	color: #E977AF;
 }
 
 header.entry-header:after, h2:after {
     content: "";
     display: table;
     width: 100%;
-    border-bottom: .2em solid #EA2B72;
+    border-bottom: .2em solid #E977AF;
     position: relative;
     z-index: 0;
     top: -.6em;
@@ -177,7 +177,7 @@ h2:after {
     top: -.35em;
 }
 .entry-title a {
-	color: #EA2B72;
+	color: #E977AF;
 }
 .entry-title a:hover {
 	color: #444;
@@ -251,7 +251,7 @@ article.hentry {
 	float: none;
 }
 blockquote {
-	color: #EA2B72;
+	color: #E977AF;
 }
 @media (max-width: 500px) {
 	.entry-content img {
