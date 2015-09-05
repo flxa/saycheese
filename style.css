@@ -8,8 +8,10 @@
  Version:      1.0.0
 */
 @import url("../twentyfifteen/style.css");
+@import url(https://fonts.googleapis.com/css?family=Lato:400,100,900);
 body {
-	font-family: "Century Gothic","Futura",sans-serif;
+	font-family: "Lato",sans-serif;
+	font-weight: 400;
 	background-image: linear-gradient(transparent, white);
 }
 body:before {
