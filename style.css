@@ -8,10 +8,10 @@
  Version:      1.0.0
 */
 @import url("../twentyfifteen/style.css");
-@import url(https://fonts.googleapis.com/css?family=Lato:400,100,900);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,900);
 body {
 	font-family: "Lato",sans-serif;
-	font-weight: 400;
+	font-weight: 300;
 	background-image: linear-gradient(transparent, white);
 }
 body:before {
