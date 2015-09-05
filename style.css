@@ -131,6 +131,7 @@ article .entry-footer {
 }
 .site-title a {
 	color: white;
+	font-weight: 300;
 }
 .site-description {
 	margin: 0;
