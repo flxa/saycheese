@@ -19,7 +19,7 @@
 	if ( is_home() ) {
 		
 	} else {
-		if (!empty(the_title())) {
+		if (get_the_title()!='') {
 			echo '<header class="entry-header">';
 			the_title( '<h1 class="entry-title">', '</h1>' );
 			echo '</header><!-- .entry-header -->';
