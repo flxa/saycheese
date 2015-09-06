@@ -433,7 +433,7 @@ img.alignright {
 
 @media (min-width: 900px) {
 	.pkg-box {
-	    border: 5px solid rgb(234, 43, 114);
+	    border: 5px solid #E977AF;
 	    padding: 1em;
 	    width: calc(33.3333% - 1em);
 	    float: left;
