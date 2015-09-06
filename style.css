@@ -212,6 +212,10 @@ article.hentry {
 	padding: 2em 7em;
 }
 
+.home .entry-content, .entry-summary {
+	padding: 0;
+}
+
 .bottom_content_widget {
 	text-align: center;
 }
