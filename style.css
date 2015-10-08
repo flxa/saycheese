@@ -230,6 +230,10 @@ article.hentry {
 	padding: 0;
 }
 
+.home .entry-content img {
+	margin: 0 !important;
+}
+
 .bottom_content_widget {
 	text-align: center;
 }
