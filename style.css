@@ -264,8 +264,22 @@ article.hentry {
 /* Backwards arse mobile last design :( ... for shame (on me) */
 
 .entry-content img {
-	margin: 0;
+	max-width: 100%;
+	margin: 1em 0;
 }
+@media (min-width: 500px) {
+	.entry-content img {
+		margin: 1em;
+	}
+}
+.entry-content p:before, .entry-content p:after {
+    content: "";
+    display: table;
+    float: none;
+    clear: both;
+}
+
+
 .image-grid:before, .image-grid:after {
 	content "";
 	display: table;
