@@ -9,6 +9,10 @@
 */
 @import url("../twentyfifteen/style.css");
 @import url(https://fonts.googleapis.com/css?family=Lato:300,900);
+* { 
+	-webkit-hyphens: none;
+	word-break: normal;
+}
 body {
 	font-family: "Lato",sans-serif;
 	font-weight: 300;
